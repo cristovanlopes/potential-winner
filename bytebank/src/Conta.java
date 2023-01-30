@@ -1,5 +1,5 @@
 class Conta{
-	double Saldo;
+	double saldo;
 	int agencia;
 	int numero;
 	String titular;
