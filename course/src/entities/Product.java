@@ -17,8 +17,7 @@ public class Product {
 		this.quantity -= quantity;
 	}
 	public String toString() {
-		return "Product data: " 
-	+ name 
+		return name
 	+ ", $ " 
 	+ String.format("%.2f", price)
 	+ ", " + quantity 
