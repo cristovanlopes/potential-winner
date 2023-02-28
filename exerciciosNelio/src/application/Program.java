@@ -1,6 +1,5 @@
 package application;
 
-import java.text.DecimalFormat;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -14,18 +13,12 @@ public class Program {
 		Scanner sc = new Scanner(System.in);
 		
 		Product product = new Product();
-		
+		System.out.println("Enter rectangle width and height:");
 		product.width = sc.nextDouble();
 		product.height = sc.nextDouble();
 		
-		double area = product.calculateArea();
 		
-		DecimalFormat df = new DecimalFormat("#.00");
-		String formattedArea = df.format(area);
-		
-		System.out.printf("AREA = %s\n", formattedArea);
-		
-		
+		System.out.println("AREA = " + product);
 		
 		
 		

@@ -18,14 +18,12 @@ public class Product {
 	public double calculateDiagonal() {
 		return  Math.sqrt(width*width + height*height);
 	}
+
+	public String toString() {		
+		return String.format("%.2f", calculateArea()) + "\n"
+				+ "PERIMETER = " 
+				+ String.format("%.2f", calculatePerimeter()) + "\n"
+				+ "DIAGONAL = " + String.format("%.2f", calculateDiagonal());
+	}
 	
-	/*
-	public String toString() {
-		return name
-	+ ", $ " 
-	+ String.format("%.2f", price)
-	+ ", " + quantity 
-	+ " units, Total: $ "
-	+  String.format("%.2f", totalValueInStock());
-	}*/
 }
