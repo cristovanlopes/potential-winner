@@ -1,3 +1,4 @@
+//exercicio 1 nelio alves
 package application;
 
 import java.util.Locale;
@@ -19,9 +20,6 @@ public class Program {
 		
 		
 		System.out.println("AREA = " + product);
-		
-		
-		
 		
 		sc.close();
 	}
